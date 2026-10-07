@@ -1,0 +1,51 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "annina.sparkstrength.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "bomber.BomberPlayerComponentAccessor",
+    "bomber.TimedBombBedStateMixin",
+    "bomber.TimedBombBedUseMixin",
+    "bomber.TimedBombTrayStateMixin",
+    "bomber.TimedBombTrayUseMixin",
+    "coroner.CoronerBaseSpiritItemMixin",
+    "coroner.CoronerBartenderComponentSyncMixin",
+    "coroner.CoronerBomberComponentSyncMixin",
+    "coroner.CoronerIronManComponentSyncMixin",
+    "coroner.CoronerIronManVialItemMixin",
+    "coroner.CoronerPoisonNeedleItemMixin",
+    "coroner.CoronerPoisonComponentSyncMixin",
+    "coroner.CoronerTimedBombItemMixin",
+    "coroner.CoronerWaiterPlatterMixin",
+    "corruptcop.CorruptCopAbilityPacketMixin",
+    "corruptcop.CorruptCopLateralVelocityMixin",
+    "minecraft.ItemCooldownEntryAccessor",
+    "minecraft.ItemCooldownManagerAccessor",
+    "noellesroles.HiddenEquipmentHelperMixin",
+    "noellesroles.ShadowJesterAllianceMixin",
+    "noellesroles.ShadowJesterWinPriorityMixin",
+    "noellesroles.ToxicologistAntidoteItemMixin",
+    "professor.ProfessorDoorPassingMixin",
+    "professor.ProfessorSedativeMoodMixin",
+    "silencer.SilencerBatAttackMixin",
+    "silencer.SilencerGunShootPayloadMixin",
+    "silencer.SilencerKnifeStabPayloadMixin",
+    "silencer.SilencerKnifeUseMixin",
+    "veteran.VeteranKnifeStabPayloadMixin",
+    "veteran.VeteranServerKnifeUseMixin",
+    "waiter.WaiterFeedingRewardMixin",
+    "wathe.GameFunctionsMixin",
+    "wathe.GameWorldComponentAccessor",
+    "wathe.PlayerCollisionGraceMixin",
+    "wathe.KillerPassiveMoneyCapMixin",
+    "wathe.PlayerShopComponentAccessor",
+    "wathe.ShadowJesterRevolverCooldownMixin"
+    ,"serialkiller.SerialKillerPsychoMixin"
+    ,"serialkiller.SerialKillerServerSlotLockMixin"
+    ,"serialkiller.SerialKillerComponentTickMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

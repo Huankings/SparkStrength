@@ -8,6 +8,10 @@ package annina.sparkstrength.client.ui.common;
  */
 public final class PlayerSelectionPageState {
     private static int noisemakerPage;
+    private static int phantomPage;
+    private static int professorPage;
+    private static int coronerPage;
+    private static int reporterPage;
 
     private PlayerSelectionPageState() {
     }
@@ -18,5 +22,37 @@ public final class PlayerSelectionPageState {
 
     public static void setNoisemakerPage(int page) {
         noisemakerPage = Math.max(0, page);
+    }
+
+    public static int getPhantomPage() {
+        return phantomPage;
+    }
+
+    public static void setPhantomPage(int page) {
+        phantomPage = Math.max(0, page);
+    }
+
+    public static int getProfessorPage() {
+        return professorPage;
+    }
+
+    public static void setProfessorPage(int page) {
+        professorPage = Math.max(0, page);
+    }
+
+    public static int getCoronerPage() {
+        return coronerPage;
+    }
+
+    public static void setCoronerPage(int page) {
+        coronerPage = Math.max(0, page);
+    }
+
+    public static int getReporterPage() {
+        return reporterPage;
+    }
+
+    public static void setReporterPage(int page) {
+        reporterPage = Math.max(0, page);
     }
 }

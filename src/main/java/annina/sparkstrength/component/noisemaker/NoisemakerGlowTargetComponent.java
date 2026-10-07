@@ -1,7 +1,7 @@
 package annina.sparkstrength.component.noisemaker;
 
 import annina.sparkstrength.SparkStrength;
-import annina.sparkstrength.noisemaker.NoisemakerGlowConstants;
+import annina.sparkstrength.role.noisemaker.NoisemakerGlowConstants;
 import annina.sparkstrength.replay.SparkStrengthReplayFormatters;
 import dev.doctor4t.wathe.game.GameFunctions;
 import dev.doctor4t.wathe.record.GameRecordManager;

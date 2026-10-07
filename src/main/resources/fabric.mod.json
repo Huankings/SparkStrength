@@ -15,17 +15,50 @@
     "client": [
       "annina.sparkstrength.client.SparkStrengthClient"
     ],
+    "lambdynlights:initializer": [
+      "annina.sparkstrength.client.role.attendant.FlashlightDynamicLightsInitializer"
+    ],
+    "dynamiclights": [
+      "annina.sparkstrength.client.role.attendant.FlashlightDynamicLightsInitializer"
+    ],
+    "voicechat": [
+      "annina.sparkstrength.voice.SparkStrengthVoiceChatPlugin"
+    ],
     "cardinal-components": [
       "annina.sparkstrength.component.SparkStrengthComponents"
     ]
   },
   "custom": {
     "cardinal-components": [
+      "sparkstrength:corrupt_cop_ability",
       "sparkstrength:noisemaker_glow_user",
-      "sparkstrength:noisemaker_glow_target"
+      "sparkstrength:noisemaker_glow_target",
+      "sparkstrength:phantom_backpack_user",
+      "sparkstrength:phantom_backpack_target",
+      "sparkstrength:professor_serum_user",
+      "sparkstrength:professor_serum_target",
+      "sparkstrength:criminologist_player",
+      "sparkstrength:coroner_player",
+      "sparkstrength:coroner_body_snapshot",
+      "sparkstrength:demon_hunter_sniff",
+      "sparkstrength:veteran_knife",
+      "sparkstrength:engineer_stunned",
+      "sparkstrength:morph_mark_player",
+      "sparkstrength:toxicologist_antidote",
+      "sparkstrength:reporter_communication",
+      "sparkstrength:criminologist_world",
+      "sparkstrength:tablet_world",
+      "sparkstrength:morph_body_disguise_world",
+      "sparkstrength:shadow_jester_showdown",
+      "sparkstrength:waiter_task_reveal",
+      "sparkstrength:timekeeper_watch"
+      ,"sparkstrength:player_collision_grace"
+      ,"sparkstrength:serial_pistol"
+      ,"sparkstrength:serial_left_pistol"
     ]
   },
   "mixins": [
+    "sparkstrength.mixins.json",
     {
       "config": "sparkstrength.client.mixins.json",
       "environment": "client"
@@ -39,6 +72,10 @@
     "wathe": "${wathe_version}",
     "noellesroles": "${noellesroles_version}",
     "cardinal-components-base": ">=${cca_version}",
-    "cardinal-components-entity": ">=${cca_version}"
+    "cardinal-components-entity": ">=${cca_version}",
+    "cardinal-components-world": ">=${cca_version}"
+  },
+  "suggests": {
+    "sparkwitch": "*"
   }
 }
